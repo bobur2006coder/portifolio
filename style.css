@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    padding-top: 23px;
+}
+
+.list-item {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #000000;
+}
+
+
+/* ----------------------Header qismi -------------------- */
+
+
+
+header {
+    padding-top: 100px;
+}
+
+.personal_info {
+    padding-bottom: 20px;
+}
+
+.info_text {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.btn_info {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.personal_info {
+    font-family: Heebo;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+/* ---------------main qismi---------------- */
+
+
+main {
+    margin-top: 70px;
+    padding: 17px 0px 30px;
+    background-color: #EDF7FA;
+}
+
+.ul-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.box-info {
+    font-family: Heebo;
+    font-weight: 700;
+}
+
+.list-two {
+    color: #00A8CC;
+}
+
+.list-one {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+/* -------section qismi ------------*/
+
+section{
+    margin-bottom: 100px;
+}
+.img-and-text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-info {
+    margin: 20px 0px 25px;
+}
+
+.paragraf {
+    height: 93px;
+    width: 594px;
+    left: 410px;
+    top: 1188px;
+    border-radius: nullpx;
+    margin-top: 20px;
+
+}
+
+.btn_section {
+    height: 25px;
+    width: 62px;
+    left: 410px;
+    top: 1141px;
+    border-radius: 16px;
+    background: #142850;
+    border: none;
+    color: white;
+}
+
+.right-text{
+    color: #8695A4;
+    margin: 50px  30px;
+}
+.hbu{
+    margin-bottom: 15px;
+}
+
+/* -----footer qismi-------------- */
+
+.space{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.the-end{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.space a{
+    color: black;
+}
