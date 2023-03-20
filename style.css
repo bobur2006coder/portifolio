@@ -30,7 +30,40 @@ body {
 
 /* ----------------------Header qismi -------------------- */
 
+.card {
+    padding: 31px 33px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
 
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.year {
+    padding: 5px 10px;
+    background: #142850;
+    border-radius: 16px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.good {
+    margin-left: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
 
 header {
     padding-top: 100px;
@@ -120,14 +153,27 @@ main {
 
 /* -------section qismi ------------*/
 
-section{
+section {
     margin-bottom: 100px;
 }
+
 .img-and-text {
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
+.worked {
+    margin-top: 50px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 50px;
+}
+
 
 .section-info {
     margin: 20px 0px 25px;
@@ -154,28 +200,97 @@ section{
     color: white;
 }
 
-.right-text{
+.right-text {
     color: #8695A4;
-    margin: 50px  30px;
+    margin: 50px 30px;
 }
-.hbu{
+
+.hbu {
     margin-bottom: 15px;
 }
 
 /* -----footer qismi-------------- */
 
-.space{
+.space {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 30px;
 }
 
-.the-end{
+.the-end {
     margin-top: 10px;
     text-align: center;
 }
 
-.space a{
+.space a {
     color: black;
+}
+
+.dawt p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.logo{
+    width: 100%;
+}
+
+.dawt h2 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+@media (max-width:576px) {
+    .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-info {
+        margin-top: 10px;
+    }
+
+    .dawt h2 {
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+    .dawt p {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .rect {
+        margin-left: 80px;
+    }
+
+    .dawt span {
+        margin-left: 80px;
+    }
+    .worked{
+        text-align: center;
+    }
+    .personal_info{
+        margin-top: 30px;
+     font-size: 36px;
+     text-align: center;
+    }
+    header{
+        padding-top: 0;
+    }
+    .info_text{
+        text-align: center;
+    }
+    .btn_info{
+    margin-left: 100px;
+    }
 }
