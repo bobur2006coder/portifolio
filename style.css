@@ -28,6 +28,11 @@ body {
 }
 
 
+.list-item:hover{
+    color: #1fc9f0;
+    transition: 0.5s ease-in;
+}
+
 /* ----------------------Header qismi -------------------- */
 
 .card {
@@ -214,7 +219,7 @@ section {
 .space {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 30px;
 }
 
@@ -235,7 +240,8 @@ section {
     line-height: 24px;
     color: #21243D;
 }
-.logo{
+
+.logo {
     width: 100%;
 }
 
@@ -276,21 +282,28 @@ section {
     .dawt span {
         margin-left: 80px;
     }
-    .worked{
+
+    .worked {
         text-align: center;
     }
-    .personal_info{
+
+    .personal_info {
         margin-top: 30px;
-     font-size: 36px;
-     text-align: center;
+        font-size: 36px;
+        text-align: center;
     }
-    header{
+
+    header {
         padding-top: 0;
     }
-    .info_text{
+
+    .info_text {
         text-align: center;
     }
-    .btn_info{
-    margin-left: 70px;
+
+    .btn_info {
+        margin-left: 133px;
+        
     }
+
 }
